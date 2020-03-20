@@ -1,0 +1,1 @@
+## `zdesk deleted-tickets`
