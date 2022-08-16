@@ -6,15 +6,11 @@
 
     zdesk agents list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/agents
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/agents#get-all-agents
-
-### Options
-
-* `-limit OPTION`
-
-* `-max-id OPTION`
-
-* `-since-id OPTION`
+https://developer.zendesk.com/api-reference/live-chat/agents#list-agents
 

@@ -1,14 +1,18 @@
 ## `zdesk chat show`
 
-/chats/{chat_id}
+/chats/{CHAT_ID}
 
 ### Synopsis
 
     zdesk chat show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/chats/{CHAT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/chats#get-chat
+https://developer.zendesk.com/api-reference/live-chat/chats#show-chat
 
 ### Positional parameters
 

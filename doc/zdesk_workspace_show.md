@@ -1,16 +1,20 @@
 ## `zdesk workspace show`
 
-/workspaces/{id}.json
+/workspaces/{WORKSPACE_ID}
 
 ### Synopsis
 
     zdesk workspace show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/workspaces/{WORKSPACE_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/workspaces#show-workspace
+https://developer.zendesk.com/api-reference/ticketing/workspaces#show-workspace
 
 ### Positional parameters
 
-* `ID`
+* `WORKSPACE_ID`
 

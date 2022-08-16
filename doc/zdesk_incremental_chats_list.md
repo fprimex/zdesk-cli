@@ -6,9 +6,13 @@
 
     zdesk incremental chats list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/incremental/chats
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/incremental_export#start-time
+https://developer.zendesk.com/api-reference/live-chat/incremental_exporthttp://www.epochconverter.com
 
 ### Options
 

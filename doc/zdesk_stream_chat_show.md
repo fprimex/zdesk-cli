@@ -1,14 +1,18 @@
 ## `zdesk stream chat show`
 
-/stream/chats/{metric_key}
+/stream/chats/{METRIC_KEY}
 
 ### Synopsis
 
     zdesk stream chat show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/stream/chats/{METRIC_KEY}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/apis#get-single-metric-for-chats
+https://developer.zendesk.com/api-reference/live-chat/rest#get-chat-metric
 
 ### Positional parameters
 

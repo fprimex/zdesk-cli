@@ -1,14 +1,18 @@
 ## `zdesk upload delete`
 
-/uploads/{token}.json
+/uploads/{TOKEN}
 
 ### Synopsis
 
     zdesk upload delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/uploads/{TOKEN}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/attachments#delete-upload
+https://developer.zendesk.com/api-reference/ticketing/ticket-attachments#delete-upload
 
 ### Positional parameters
 

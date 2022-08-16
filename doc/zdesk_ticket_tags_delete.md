@@ -1,16 +1,20 @@
 ## `zdesk ticket tags delete`
 
-/tickets/{id}/tags.json
+/tickets/{TICKET_ID}/tags
 
 ### Synopsis
 
     zdesk ticket tags delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/tickets/{TICKET_ID}/tags
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tags#remove-tags
+https://developer.zendesk.com/api-reference/ticketing/tags#remove-tags
 
 ### Positional parameters
 
-* `ID`
+* `TICKET_ID`
 

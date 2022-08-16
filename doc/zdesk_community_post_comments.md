@@ -1,14 +1,18 @@
 ## `zdesk community post comments`
 
-/community/posts/{post_id}/comments.json
+/community/posts/{POST_ID}/comments
 
 ### Synopsis
 
     zdesk community post comments [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/community/posts/{POST_ID}/comments
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/post_comments#list-comments
+https://developer.zendesk.com/api-reference/help_center/help-center-api/post_comments#list-comments
 
 ### Positional parameters
 

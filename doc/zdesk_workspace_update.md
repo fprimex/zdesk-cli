@@ -1,16 +1,20 @@
 ## `zdesk workspace update`
 
-/workspaces/{id}.json
+/workspaces/{WORKSPACE_ID}
 
 ### Synopsis
 
     zdesk workspace update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/workspaces/{WORKSPACE_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/workspaces#update-workspace
+https://developer.zendesk.com/api-reference/ticketing/workspaces#update-workspace
 
 ### Positional parameters
 
-* `ID`
+* `WORKSPACE_ID`
 

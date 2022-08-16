@@ -1,16 +1,20 @@
 ## `zdesk target update`
 
-/targets/{id}.json
+/targets/{TARGET_ID}
 
 ### Synopsis
 
     zdesk target update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/targets/{TARGET_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/targets#update-target
+https://developer.zendesk.com/api-reference/ticketing/targets#update-target
 
 ### Positional parameters
 
-* `ID`
+* `TARGET_ID`
 

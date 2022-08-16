@@ -1,12 +1,16 @@
 ## `zdesk group create`
 
-/groups.json
+/groups
 
 ### Synopsis
 
     zdesk group create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/groups
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/groups#create-group
+https://developer.zendesk.com/api-reference/ticketing/groups#create-group
 

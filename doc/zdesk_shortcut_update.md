@@ -1,14 +1,18 @@
 ## `zdesk shortcut update`
 
-/shortcuts/{shortcut_id}
+/shortcuts/{SHORTCUT_ID}
 
 ### Synopsis
 
     zdesk shortcut update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/shortcuts/{SHORTCUT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/shortcuts#update-shortcut
+https://developer.zendesk.com/api-reference/live-chat/shortcuts#update-shortcut
 
 ### Positional parameters
 

@@ -1,16 +1,20 @@
 ## `zdesk group delete`
 
-/groups/{id}.json
+/groups/{GROUP_ID}
 
 ### Synopsis
 
     zdesk group delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/groups/{GROUP_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/groups#delete-group
+https://developer.zendesk.com/api-reference/ticketing/groups#delete-group
 
 ### Positional parameters
 
-* `ID`
+* `GROUP_ID`
 

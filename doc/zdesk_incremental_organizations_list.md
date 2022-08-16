@@ -1,14 +1,18 @@
 ## `zdesk incremental organizations list`
 
-/incremental/organizations.json
+/incremental/organizations
 
 ### Synopsis
 
     zdesk incremental organizations list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/incremental/organizations
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/incremental_export#incremental-ticket-export
+https://developer.zendesk.com/api-reference/ticketing/incremental_exports#incremental-organization-export
 
 ### Options
 

@@ -1,16 +1,16 @@
 ## `zdesk activities list`
 
-/activities.json
+/activities
 
 ### Synopsis
 
     zdesk activities list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/activities
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/activity_stream#list-activities
-
-### Options
-
-* `-since OPTION`
+https://developer.zendesk.com/api-reference/ticketing/activity_stream#list-activities
 

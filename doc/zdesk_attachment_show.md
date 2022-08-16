@@ -1,16 +1,20 @@
 ## `zdesk attachment show`
 
-/attachments/{id}.json
+/attachments/{ATTACHMENT_ID}
 
 ### Synopsis
 
     zdesk attachment show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/attachments/{ATTACHMENT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/attachments#show-attachment
+https://developer.zendesk.com/api-reference/ticketing/ticket-attachments#show-attachment
 
 ### Positional parameters
 
-* `ID`
+* `ATTACHMENT_ID`
 

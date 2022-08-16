@@ -1,12 +1,16 @@
 ## `zdesk user create`
 
-/users.json
+/users
 
 ### Synopsis
 
     zdesk user create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/users
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/users#create-user
+https://developer.zendesk.com/api-reference/ticketing/users#create-user
 

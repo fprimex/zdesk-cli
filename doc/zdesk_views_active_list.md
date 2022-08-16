@@ -1,12 +1,16 @@
 ## `zdesk views active list`
 
-/views/active.json
+/views/active
 
 ### Synopsis
 
     zdesk views active list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/views/active
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/views#list-active-views
+https://developer.zendesk.com/api-reference/ticketing/views#list-active-views
 

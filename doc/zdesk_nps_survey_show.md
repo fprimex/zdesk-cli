@@ -1,16 +1,20 @@
 ## `zdesk nps survey show`
 
-/nps/surveys/{id}
+/nps/surveys/{SURVEY_ID}
 
 ### Synopsis
 
     zdesk nps survey show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/nps/surveys/{SURVEY_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/nps-api/surveys#show-survey
+https://developer.zendesk.com/api-reference/ticketing/nps_surveys#show-survey
 
 ### Positional parameters
 
-* `ID`
+* `SURVEY_ID`
 

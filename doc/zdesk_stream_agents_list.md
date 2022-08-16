@@ -6,9 +6,13 @@
 
     zdesk stream agents list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/stream/agents
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/apis#get-all-agents-status
+https://developer.zendesk.com/api-reference/live-chat/rest#get-agent-status-counts
 
 ### Options
 

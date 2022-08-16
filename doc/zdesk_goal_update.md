@@ -1,14 +1,18 @@
 ## `zdesk goal update`
 
-/goals/{goal_id}
+/goals/{GOAL_ID}
 
 ### Synopsis
 
     zdesk goal update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/goals/{GOAL_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/goals#update-goal
+https://developer.zendesk.com/api-reference/live-chat/goals#update-goal
 
 ### Positional parameters
 

@@ -1,16 +1,20 @@
 ## `zdesk agents email show`
 
-/agents/email/{email_id}
+/agents/email/{EMAIL}
 
 ### Synopsis
 
     zdesk agents email show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/agents/email/{EMAIL}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/agents#get-agent-by-email-id
+https://developer.zendesk.com/api-reference/live-chat/agents#show-agent-by-email
 
 ### Positional parameters
 
-* `EMAIL_ID`
+* `EMAIL`
 

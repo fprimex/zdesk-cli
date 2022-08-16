@@ -1,16 +1,20 @@
 ## `zdesk group show`
 
-/groups/{id}.json
+/groups/{GROUP_ID}
 
 ### Synopsis
 
     zdesk group show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/groups/{GROUP_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/groups#show-group
+https://developer.zendesk.com/api-reference/ticketing/groups#show-group
 
 ### Positional parameters
 
-* `ID`
+* `GROUP_ID`
 

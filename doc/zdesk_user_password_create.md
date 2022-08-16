@@ -1,14 +1,18 @@
 ## `zdesk user password create`
 
-/users/{user_id}/password.json
+/users/{USER_ID}/password
 
 ### Synopsis
 
     zdesk user password create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/users/{USER_ID}/password
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/user_passwords#set-a-users-password
+https://developer.zendesk.com/api-reference/ticketing/user_passwords#set-a-users-password
 
 ### Positional parameters
 

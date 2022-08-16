@@ -1,12 +1,16 @@
 ## `zdesk views list`
 
-/views.json
+/views
 
 ### Synopsis
 
     zdesk views list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/views
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/views#list-views
+https://developer.zendesk.com/api-reference/ticketing/views#list-views
 

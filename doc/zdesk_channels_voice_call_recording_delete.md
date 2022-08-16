@@ -1,18 +1,22 @@
 ## `zdesk channels voice call recording delete`
 
-/channels/voice/calls/{id}/recordings/{recording_type}.json
+/channels/voice/calls/{CALL_ID}/recordings/{RECORDING_TYPE}
 
 ### Synopsis
 
     zdesk channels voice call recording delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/channels/voice/calls/{CALL_ID}/recordings/{RECORDING_TYPE}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/voice-api/recordings#delete-recording-by-type
+https://developer.zendesk.com/api-reference/voice/talk-api/recordings#delete-recording-by-type
 
 ### Positional parameters
 
-* `ID`
+* `CALL_ID`
 
 * `RECORDING_TYPE`
 

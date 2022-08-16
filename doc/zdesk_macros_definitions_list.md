@@ -1,12 +1,16 @@
 ## `zdesk macros definitions list`
 
-/macros/definitions.json
+/macros/definitions
 
 ### Synopsis
 
     zdesk macros definitions list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/macros/definitions
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/macros#list-macro-action-definitions
+https://developer.zendesk.com/api-reference/ticketing/macros#list-macro-action-definitions
 

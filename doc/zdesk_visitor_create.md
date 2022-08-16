@@ -6,7 +6,11 @@
 
     zdesk visitor create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/visitors
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/visitors#create-visitor
+https://developer.zendesk.com/api-reference/live-chat/visitors#create-visitor
 

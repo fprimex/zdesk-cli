@@ -1,14 +1,18 @@
 ## `zdesk chat delete`
 
-/chats/{chat_id}
+/chats/{CHAT_ID}
 
 ### Synopsis
 
     zdesk chat delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/chats/{CHAT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/chats#delete-chat
+https://developer.zendesk.com/api-reference/live-chat/chats#delete-chat
 
 ### Positional parameters
 

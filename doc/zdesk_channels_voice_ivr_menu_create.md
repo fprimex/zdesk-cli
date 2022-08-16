@@ -1,14 +1,18 @@
 ## `zdesk channels voice ivr menu create`
 
-/channels/voice/ivr/{ivr_id}/menus.json
+/channels/voice/ivr/{IVR_ID}/menus
 
 ### Synopsis
 
     zdesk channels voice ivr menu create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/channels/voice/ivr/{IVR_ID}/menus
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/voice-api/ivrs#create-ivr-menu
+https://developer.zendesk.com/api-reference/voice/talk-api/ivr_menus#create-ivr-menu
 
 ### Positional parameters
 

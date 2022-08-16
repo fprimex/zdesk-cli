@@ -6,15 +6,11 @@
 
     zdesk bans list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/bans
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/bans#get-all-bans
-
-### Options
-
-* `-limit OPTION`
-
-* `-max-id OPTION`
-
-* `-since-id OPTION`
+https://developer.zendesk.com/api-reference/live-chat/bans#list-bans
 

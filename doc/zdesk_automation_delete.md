@@ -1,16 +1,20 @@
 ## `zdesk automation delete`
 
-/automations/{id}.json
+/automations/{AUTOMATION_ID}
 
 ### Synopsis
 
     zdesk automation delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/automations/{AUTOMATION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/automations#delete-automation
+https://developer.zendesk.com/api-reference/ticketing/automations#delete-automation
 
 ### Positional parameters
 
-* `ID`
+* `AUTOMATION_ID`
 

@@ -1,16 +1,20 @@
 ## `zdesk view update`
 
-/views/{id}.json
+/views/{VIEW_ID}
 
 ### Synopsis
 
     zdesk view update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/views/{VIEW_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/views#update-view
+https://developer.zendesk.com/api-reference/ticketing/views#update-view
 
 ### Positional parameters
 
-* `ID`
+* `VIEW_ID`
 

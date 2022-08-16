@@ -1,12 +1,16 @@
 ## `zdesk bookmarks list`
 
-/bookmarks.json
+/bookmarks
 
 ### Synopsis
 
     zdesk bookmarks list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/bookmarks
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/bookmarks#list-bookmarks
+https://developer.zendesk.com/api-reference/ticketing/bookmarks#list-bookmarks
 

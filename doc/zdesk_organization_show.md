@@ -1,16 +1,20 @@
 ## `zdesk organization show`
 
-/organizations/{id}.json
+/organizations/{ORGANIZATION_ID}
 
 ### Synopsis
 
     zdesk organization show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/organizations/{ORGANIZATION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/organizations#show-organization
+https://developer.zendesk.com/api-reference/ticketing/organizations#show-organization
 
 ### Positional parameters
 
-* `ID`
+* `ORGANIZATION_ID`
 

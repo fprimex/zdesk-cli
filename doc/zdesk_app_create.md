@@ -1,12 +1,16 @@
 ## `zdesk app create`
 
-/apps.json
+/apps
 
 ### Synopsis
 
     zdesk app create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/apps
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/apps#create-app
+https://developer.zendesk.com/api-reference/ticketing/apps#create-app
 

@@ -1,16 +1,20 @@
 ## `zdesk channels voice availability update`
 
-/channels/voice/availabilities/{id}.json
+/channels/voice/availabilities/{AGENT_ID}
 
 ### Synopsis
 
     zdesk channels voice availability update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/channels/voice/availabilities/{AGENT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/voice-api/availabilities#update-availability
+https://developer.zendesk.com/api-reference/voice/talk-api/availabilities#update-availability
 
 ### Positional parameters
 
-* `ID`
+* `AGENT_ID`
 

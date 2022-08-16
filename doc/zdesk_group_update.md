@@ -1,16 +1,20 @@
 ## `zdesk group update`
 
-/groups/{id}.json
+/groups/{GROUP_ID}
 
 ### Synopsis
 
     zdesk group update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/groups/{GROUP_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/groups#update-group
+https://developer.zendesk.com/api-reference/ticketing/groups#update-group
 
 ### Positional parameters
 
-* `ID`
+* `GROUP_ID`
 

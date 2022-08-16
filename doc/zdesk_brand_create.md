@@ -1,12 +1,16 @@
 ## `zdesk brand create`
 
-/brands.json
+/brands
 
 ### Synopsis
 
     zdesk brand create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/brands
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/brands#create-brand
+https://developer.zendesk.com/api-reference/ticketing/brands#create-brand
 

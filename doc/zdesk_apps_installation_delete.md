@@ -1,16 +1,20 @@
 ## `zdesk apps installation delete`
 
-/apps/installations/{id}.json
+/apps/installations/{APP_INSTALLATION_ID}
 
 ### Synopsis
 
     zdesk apps installation delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/apps/installations/{APP_INSTALLATION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/apps#remove-app-installation
+https://developer.zendesk.com/api-reference/ticketing/apps#remove-app-installation
 
 ### Positional parameters
 
-* `ID`
+* `APP_INSTALLATION_ID`
 

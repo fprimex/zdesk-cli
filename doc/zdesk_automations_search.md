@@ -1,12 +1,20 @@
 ## `zdesk automations search`
 
-/automations/search.json
+/automations/search
 
 ### Synopsis
 
     zdesk automations search [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/automations/search
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/automations#search-automations
+https://developer.zendesk.com/api-reference/ticketing/automations#search-automations
+
+### Options
+
+* `-query OPTION`
 

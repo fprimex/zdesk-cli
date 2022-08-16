@@ -1,1 +1,0 @@
-## `zdesk user organization-membership`

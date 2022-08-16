@@ -1,12 +1,16 @@
 ## `zdesk channels voice ivr list`
 
-/channels/voice/ivr.json
+/channels/voice/ivr
 
 ### Synopsis
 
     zdesk channels voice ivr list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/channels/voice/ivr
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/voice-api/ivrs#list-ivrs
+https://developer.zendesk.com/api-reference/voice/talk-api/ivrs#list-ivrs
 

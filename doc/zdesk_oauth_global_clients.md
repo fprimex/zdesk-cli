@@ -1,1 +1,0 @@
-## `zdesk oauth global-clients`

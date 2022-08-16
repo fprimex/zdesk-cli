@@ -1,16 +1,20 @@
 ## `zdesk ticket delete`
 
-/tickets/{id}.json
+/tickets/{TICKET_ID}
 
 ### Synopsis
 
     zdesk ticket delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/tickets/{TICKET_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#delete-ticket
+https://developer.zendesk.com/api-reference/ticketing/tickets#delete-ticket
 
 ### Positional parameters
 
-* `ID`
+* `TICKET_ID`
 

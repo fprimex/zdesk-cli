@@ -1,14 +1,18 @@
 ## `zdesk guide theming theme delete`
 
-/guide/theming/themes/{id}
+/guide/theming/themes/{ID}
 
 ### Synopsis
 
     zdesk guide theming theme delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/guide/theming/themes/{ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/theming#delete-theme
+https://developer.zendesk.com/api-reference/help_center/help-center-api/theming#delete-theme
 
 ### Positional parameters
 

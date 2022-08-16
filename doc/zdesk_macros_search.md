@@ -1,12 +1,20 @@
 ## `zdesk macros search`
 
-/macros/search.json
+/macros/search
 
 ### Synopsis
 
     zdesk macros search [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/macros/search
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/macros#search-macros
+https://developer.zendesk.com/api-reference/ticketing/macros#search-macros
+
+### Options
+
+* `-query OPTION`
 

@@ -1,16 +1,20 @@
 ## `zdesk channels voice greeting update`
 
-/channels/voice/greetings/{id}.json
+/channels/voice/greetings/{GREETINGS_ID}
 
 ### Synopsis
 
     zdesk channels voice greeting update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/channels/voice/greetings/{GREETINGS_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/voice-api/greetings#update-greetings
+https://developer.zendesk.com/api-reference/voice/talk-api/greetings#update-greeting
 
 ### Positional parameters
 
-* `ID`
+* `GREETINGS_ID`
 

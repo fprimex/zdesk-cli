@@ -6,7 +6,11 @@
 
     zdesk skills list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/skills
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/skills#get-all-skills
+https://developer.zendesk.com/api-reference/live-chat/skills#list-skills
 

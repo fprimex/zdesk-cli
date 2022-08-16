@@ -6,13 +6,15 @@
 
     zdesk incremental tickets cursor list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/incremental/tickets/cursor.json
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/incremental_export#start-time
+https://developer.zendesk.com/api-reference/ticketing/incremental_exportshttp://www.epochconverter.com/
 
 ### Options
-
-* `-cursor OPTION`
 
 * `-start-time OPTION`
 

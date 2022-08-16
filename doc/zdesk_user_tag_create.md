@@ -1,16 +1,20 @@
 ## `zdesk user tag create`
 
-/users/{id}/tags.json
+/users/{USER_ID}/tags
 
 ### Synopsis
 
     zdesk user tag create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/users/{USER_ID}/tags
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tags#set-tags
+https://developer.zendesk.com/api-reference/ticketing/tags#set-tags
 
 ### Positional parameters
 
-* `ID`
+* `USER_ID`
 

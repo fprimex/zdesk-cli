@@ -1,14 +1,18 @@
 ## `zdesk channels voice ivr menu route show`
 
-/channels/voice/ivr/{ivr_id}/menus/{menu_id}/routes/{id}.json
+/channels/voice/ivr/{IVR_ID}/menus/{MENU_ID}/routes/{ROUTE_ID}
 
 ### Synopsis
 
     zdesk channels voice ivr menu route show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/channels/voice/ivr/{IVR_ID}/menus/{MENU_ID}/routes/{ROUTE_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/voice-api/ivrs#show-ivr-route
+https://developer.zendesk.com/api-reference/voice/talk-api/ivr_routes#show-ivr-route
 
 ### Positional parameters
 
@@ -16,5 +20,5 @@ https://developer.zendesk.com/rest_api/docs/voice-api/ivrs#show-ivr-route
 
 * `MENU_ID`
 
-* `ID`
+* `ROUTE_ID`
 

@@ -1,16 +1,20 @@
 ## `zdesk brand show`
 
-/brands/{id}.json
+/brands/{BRAND_ID}
 
 ### Synopsis
 
     zdesk brand show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/brands/{BRAND_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/brands#show-a-brand
+https://developer.zendesk.com/api-reference/ticketing/brands#show-a-brand
 
 ### Positional parameters
 
-* `ID`
+* `BRAND_ID`
 

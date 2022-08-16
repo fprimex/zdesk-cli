@@ -1,14 +1,18 @@
 ## `zdesk agent show`
 
-/agents/{agent_id}
+/agents/{AGENT_ID}
 
 ### Synopsis
 
     zdesk agent show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/agents/{AGENT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/agents#get-agent-by-id
+https://developer.zendesk.com/api-reference/live-chat/agents#show-agent-by-id
 
 ### Positional parameters
 

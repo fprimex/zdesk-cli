@@ -1,14 +1,18 @@
 ## `zdesk guide theming job show`
 
-/guide/theming/jobs/{id}
+/guide/theming/jobs/{ID}
 
 ### Synopsis
 
     zdesk guide theming job show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/guide/theming/jobs/{ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/theming#show-job
+https://developer.zendesk.com/api-reference/help_center/help-center-api/theming#show-job
 
 ### Positional parameters
 

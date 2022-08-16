@@ -1,14 +1,18 @@
 ## `zdesk nps survey recipients`
 
-/nps/surveys/{survey_id}/recipients.json
+/nps/surveys/{SURVEY_ID}/recipients
 
 ### Synopsis
 
     zdesk nps survey recipients [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/nps/surveys/{SURVEY_ID}/recipients
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/nps-api/recipients#list-recipients
+https://developer.zendesk.com/api-reference/ticketing/nps_recipients#list-recipients
 
 ### Positional parameters
 

@@ -1,14 +1,18 @@
 ## `zdesk user identity create`
 
-/users/{user_id}/identities.json
+/users/{USER_ID}/identities
 
 ### Synopsis
 
     zdesk user identity create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/users/{USER_ID}/identities
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/user_identities#create-identity
+https://developer.zendesk.com/api-reference/ticketing/user_identities#create-identity
 
 ### Positional parameters
 

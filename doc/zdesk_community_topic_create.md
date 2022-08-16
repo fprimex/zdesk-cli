@@ -1,12 +1,16 @@
 ## `zdesk community topic create`
 
-/community/topics.json
+/community/topics
 
 ### Synopsis
 
     zdesk community topic create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/community/topics
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/topics#create-topic
+https://developer.zendesk.com/api-reference/help_center/help-center-api/topics#create-topic
 

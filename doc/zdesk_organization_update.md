@@ -1,16 +1,20 @@
 ## `zdesk organization update`
 
-/organizations/{id}.json
+/organizations/{ORGANIZATION_ID}
 
 ### Synopsis
 
     zdesk organization update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/organizations/{ORGANIZATION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/organizations#update-organization
+https://developer.zendesk.com/api-reference/ticketing/organizations#update-organization
 
 ### Positional parameters
 
-* `ID`
+* `ORGANIZATION_ID`
 

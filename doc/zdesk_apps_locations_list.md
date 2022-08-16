@@ -1,12 +1,16 @@
 ## `zdesk apps locations list`
 
-/apps/locations.json
+/apps/locations
 
 ### Synopsis
 
     zdesk apps locations list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/apps/locations
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/app_locations#list-locations
+https://developer.zendesk.com/api-reference/ticketing/app_locations#list-locations
 

@@ -1,16 +1,20 @@
 ## `zdesk workspace delete`
 
-/workspaces/{id}.json
+/workspaces/{WORKSPACE_ID}
 
 ### Synopsis
 
     zdesk workspace delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/workspaces/{WORKSPACE_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/workspaces#delete-workspace
+https://developer.zendesk.com/api-reference/ticketing/workspaces#delete-workspace
 
 ### Positional parameters
 
-* `ID`
+* `WORKSPACE_ID`
 

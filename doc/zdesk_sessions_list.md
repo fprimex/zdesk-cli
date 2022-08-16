@@ -1,12 +1,16 @@
 ## `zdesk sessions list`
 
-/sessions.json
+/sessions
 
 ### Synopsis
 
     zdesk sessions list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/sessions
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/sessions#list-sessions
+https://developer.zendesk.com/api-reference/ticketing/sessions#list-sessions
 

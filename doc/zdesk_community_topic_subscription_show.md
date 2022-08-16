@@ -1,18 +1,22 @@
 ## `zdesk community topic subscription show`
 
-/community/topics/{topic_id}/subscriptions/{id}.json
+/community/topics/{TOPIC_ID}/subscriptions/{SUBSCRIPTION_ID}
 
 ### Synopsis
 
     zdesk community topic subscription show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/community/topics/{TOPIC_ID}/subscriptions/{SUBSCRIPTION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/subscriptions#show-topic-subscription
+https://developer.zendesk.com/api-reference/help_center/help-center-api/content_subscriptions#show-topic-subscription
 
 ### Positional parameters
 
 * `TOPIC_ID`
 
-* `ID`
+* `SUBSCRIPTION_ID`
 

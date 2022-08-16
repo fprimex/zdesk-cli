@@ -6,7 +6,11 @@
 
     zdesk oauth tokens current list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/oauth/tokens/current.json
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/oauth_tokens#show-token
+https://developer.zendesk.com/api-reference/ticketing/oauth_tokens#show-token
 

@@ -1,14 +1,18 @@
 ## `zdesk trigger revisions`
 
-/triggers/{trigger_id}/revisions.json
+/triggers/{TRIGGER_ID}/revisions
 
 ### Synopsis
 
     zdesk trigger revisions [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/triggers/{TRIGGER_ID}/revisions
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/triggers#list-trigger-revisions
+https://developer.zendesk.com/api-reference/ticketing/triggers#list-trigger-revisions
 
 ### Positional parameters
 

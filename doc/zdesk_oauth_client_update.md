@@ -1,16 +1,20 @@
 ## `zdesk oauth client update`
 
-/oauth/clients/{id}.json
+/oauth/clients/{OAUTH_CLIENT_ID}
 
 ### Synopsis
 
     zdesk oauth client update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/oauth/clients/{OAUTH_CLIENT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/oauth_clients#update-client
+https://developer.zendesk.com/api-reference/ticketing/oauth_clients#update-client
 
 ### Positional parameters
 
-* `ID`
+* `OAUTH_CLIENT_ID`
 

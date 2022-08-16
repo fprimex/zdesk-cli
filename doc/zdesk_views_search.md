@@ -1,12 +1,20 @@
 ## `zdesk views search`
 
-/views/search.json
+/views/search
 
 ### Synopsis
 
     zdesk views search [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/views/search
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/views#search-views
+https://developer.zendesk.com/api-reference/ticketing/views#search-views
+
+### Options
+
+* `-query OPTION`
 

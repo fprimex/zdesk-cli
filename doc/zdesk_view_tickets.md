@@ -1,16 +1,20 @@
 ## `zdesk view tickets`
 
-/views/{id}/tickets.json
+/views/{VIEW_ID}/tickets
 
 ### Synopsis
 
     zdesk view tickets [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/views/{VIEW_ID}/tickets
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/views#list-tickets-from-a-view
+https://developer.zendesk.com/api-reference/ticketing/views#list-tickets-from-a-view
 
 ### Positional parameters
 
-* `ID`
+* `VIEW_ID`
 

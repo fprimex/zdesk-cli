@@ -1,20 +1,20 @@
 ## `zdesk user tickets requested`
 
-/users/{user_id}/tickets/requested.json
+/users/{USER_ID}/tickets/requested
 
 ### Synopsis
 
     zdesk user tickets requested [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/users/{USER_ID}/tickets/requested
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#allowed-for
+https://developer.zendesk.com/api-reference/ticketing/tickets#list-tickets
 
 ### Positional parameters
 
 * `USER_ID`
-
-### Options
-
-* `-external-id OPTION`
 

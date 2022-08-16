@@ -1,1 +1,0 @@
-## `zdesk business-hours schedule`

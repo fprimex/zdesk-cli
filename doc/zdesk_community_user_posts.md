@@ -1,16 +1,20 @@
 ## `zdesk community user posts`
 
-/community/users/{id}/posts.json
+/community/users/{USER_ID}/posts
 
 ### Synopsis
 
     zdesk community user posts [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/community/users/{USER_ID}/posts
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/posts#list-posts
+https://developer.zendesk.com/api-reference/help_center/help-center-api/posts#list-posts
 
 ### Positional parameters
 
-* `ID`
+* `USER_ID`
 

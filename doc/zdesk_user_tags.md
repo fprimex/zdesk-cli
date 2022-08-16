@@ -1,16 +1,20 @@
 ## `zdesk user tags`
 
-/users/{id}/tags.json
+/users/{USER_ID}/tags
 
 ### Synopsis
 
     zdesk user tags [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/users/{USER_ID}/tags
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tags#show-tags
+https://developer.zendesk.com/api-reference/ticketing/tags#list-resource-tags
 
 ### Positional parameters
 
-* `ID`
+* `USER_ID`
 

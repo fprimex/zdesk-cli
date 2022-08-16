@@ -1,16 +1,20 @@
 ## `zdesk request update`
 
-/requests/{id}.json
+/requests/{REQUEST_ID}
 
 ### Synopsis
 
     zdesk request update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/requests/{REQUEST_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/requests#update-request
+https://developer.zendesk.com/api-reference/ticketing/ticket-requests#update-request
 
 ### Positional parameters
 
-* `ID`
+* `REQUEST_ID`
 

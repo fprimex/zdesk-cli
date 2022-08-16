@@ -1,12 +1,16 @@
 ## `zdesk channels voice address create`
 
-/channels/voice/addresses.json
+/channels/voice/addresses
 
 ### Synopsis
 
     zdesk channels voice address create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/channels/voice/addresses
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/voice-api/addresses#create-address
+https://developer.zendesk.com/api-reference/voice/talk-api/addresses#create-address
 

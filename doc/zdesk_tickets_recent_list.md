@@ -1,16 +1,16 @@
 ## `zdesk tickets recent list`
 
-/tickets/recent.json
+/tickets/recent
 
 ### Synopsis
 
     zdesk tickets recent list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/tickets/recent
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#allowed-for
-
-### Options
-
-* `-external-id OPTION`
+https://developer.zendesk.com/api-reference/ticketing/tickets#list-tickets
 

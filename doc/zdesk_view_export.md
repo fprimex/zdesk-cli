@@ -1,16 +1,20 @@
 ## `zdesk view export`
 
-/views/{id}/export.json
+/views/{VIEW_ID}/export
 
 ### Synopsis
 
     zdesk view export [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/views/{VIEW_ID}/export
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/views#export-view
+https://developer.zendesk.com/api-reference/ticketing/views#export-view
 
 ### Positional parameters
 
-* `ID`
+* `VIEW_ID`
 

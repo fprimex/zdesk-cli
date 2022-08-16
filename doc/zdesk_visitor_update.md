@@ -1,14 +1,18 @@
 ## `zdesk visitor update`
 
-/visitors/{visitor_id}
+/visitors/{VISITOR_ID}
 
 ### Synopsis
 
     zdesk visitor update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/visitors/{VISITOR_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/visitors#update-visitor
+https://developer.zendesk.com/api-reference/live-chat/visitors#update-visitor
 
 ### Positional parameters
 

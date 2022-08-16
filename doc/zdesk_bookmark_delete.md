@@ -1,16 +1,20 @@
 ## `zdesk bookmark delete`
 
-/bookmarks/{id}.json
+/bookmarks/{BOOKMARK_ID}
 
 ### Synopsis
 
     zdesk bookmark delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/bookmarks/{BOOKMARK_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/bookmarks#delete-bookmark
+https://developer.zendesk.com/api-reference/ticketing/bookmarks#delete-bookmark
 
 ### Positional parameters
 
-* `ID`
+* `BOOKMARK_ID`
 

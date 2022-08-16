@@ -6,7 +6,11 @@
 
     zdesk requests open list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/requests/open.json
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/requests#list-requests
+https://developer.zendesk.com/api-reference/ticketing/ticket-requests#list-requests
 

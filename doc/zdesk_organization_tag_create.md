@@ -1,16 +1,20 @@
 ## `zdesk organization tag create`
 
-/organizations/{id}/tags.json
+/organizations/{ORGANIZATION_ID}/tags
 
 ### Synopsis
 
     zdesk organization tag create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/organizations/{ORGANIZATION_ID}/tags
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tags#set-tags
+https://developer.zendesk.com/api-reference/ticketing/tags#set-tags
 
 ### Positional parameters
 
-* `ID`
+* `ORGANIZATION_ID`
 

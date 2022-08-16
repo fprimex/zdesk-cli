@@ -1,20 +1,20 @@
 ## `zdesk user tickets ccd`
 
-/users/{user_id}/tickets/ccd.json
+/users/{USER_ID}/tickets/ccd
 
 ### Synopsis
 
     zdesk user tickets ccd [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/users/{USER_ID}/tickets/ccd
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#allowed-for
+https://developer.zendesk.com/api-reference/ticketing/tickets#list-tickets
 
 ### Positional parameters
 
 * `USER_ID`
-
-### Options
-
-* `-external-id OPTION`
 

@@ -1,1 +1,0 @@
-## `zdesk guide permission-group`

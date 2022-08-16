@@ -1,12 +1,16 @@
 ## `zdesk locales current list`
 
-/locales/current.json
+/locales/current
 
 ### Synopsis
 
     zdesk locales current list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/locales/current
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/locales#show-current-locale
+https://developer.zendesk.com/api-reference/ticketing/locales#show-current-locale
 

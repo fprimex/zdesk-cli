@@ -1,16 +1,20 @@
 ## `zdesk ticket tag create`
 
-/tickets/{id}/tags.json
+/tickets/{TICKET_ID}/tags
 
 ### Synopsis
 
     zdesk ticket tag create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/tickets/{TICKET_ID}/tags
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tags#set-tags
+https://developer.zendesk.com/api-reference/ticketing/tags#set-tags
 
 ### Positional parameters
 
-* `ID`
+* `TICKET_ID`
 

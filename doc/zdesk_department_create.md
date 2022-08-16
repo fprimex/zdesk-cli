@@ -6,7 +6,11 @@
 
     zdesk department create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/departments
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/departments#create-department
+https://developer.zendesk.com/api-reference/live-chat/departments#create-department
 

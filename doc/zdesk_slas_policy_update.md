@@ -1,16 +1,20 @@
 ## `zdesk slas policy update`
 
-/slas/policies/{id}
+/slas/policies/{SLA_POLICY_ID}
 
 ### Synopsis
 
     zdesk slas policy update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/slas/policies/{SLA_POLICY_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/sla_policies#update-sla-policy
+https://developer.zendesk.com/api-reference/ticketing/sla_policies#update-sla-policy
 
 ### Positional parameters
 
-* `ID`
+* `SLA_POLICY_ID`
 

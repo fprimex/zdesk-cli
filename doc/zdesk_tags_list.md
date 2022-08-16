@@ -1,12 +1,16 @@
 ## `zdesk tags list`
 
-/tags.json
+/tags
 
 ### Synopsis
 
     zdesk tags list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/tags
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tags#list-tags
+https://developer.zendesk.com/api-reference/ticketing/tags#list-tags
 

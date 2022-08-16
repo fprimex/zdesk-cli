@@ -1,18 +1,22 @@
 ## `zdesk trigger revision show`
 
-/triggers/{trigger_id}/revisions/{revision_id}.json
+/triggers/{TRIGGER_ID}/revisions/{TRIGGER_REVISION_ID}
 
 ### Synopsis
 
     zdesk trigger revision show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/triggers/{TRIGGER_ID}/revisions/{TRIGGER_REVISION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/triggers#getting-revisions
+https://developer.zendesk.com/api-reference/ticketing/triggers#show-trigger-revision
 
 ### Positional parameters
 
 * `TRIGGER_ID`
 
-* `REVISION_ID`
+* `TRIGGER_REVISION_ID`
 

@@ -1,62 +1,49 @@
 ## `zdesk`
 
-Unofficial command line client for the Zendesk helpdesk service
+REST client for the Zendesk helpdesk system
 
 ### Synopsis
 
-    zdesk [SUBCOMMANDS] [PARAMETERS] [OPTIONS]
+    zdesk SUBCOMMAND [ ... ]
 
 ### Description
 
-The `zdesk` program is a command line client for the Zendesk REST API written in portable Bourne shell.
+https://developer.zendesk.com/api-reference/
 
 ### Options
 
-* `-hostname HOSTNAME=app.terraform.io`
+* `-hostname HOSTNAME`
 
-The address of your Terraform Enterprise instance. Defaults to the SaaS hostname at https://app.terraform.io
+Zendesk host (e.g. example.zendesk.com)
 
-* `-token TOKEN`
+* `-email EMAIL`
 
-Access token for Terraform Enterprise API requests. Use of a `curlrc` file is encouraged to keep tokens out of environment variables and the process list.
+Zendesk login email to be used with -password OR -api.
+
+* `-password PASSWORD`
+
+Zendesk login password
+
+* `-api API_TOKEN`
+
+Zendesk personal API token
+
+* `-oauth OAUTH_TOKEN`
+
+Zendesk OAuth token
 
 * `-curlrc FILEPATH`
 
-Curl configuration file providing an access token for Terraform Enterprise API requests. This file can be managed using the `zdesk curl-config` command.
-
-* `-complete-response`
-
-* `-get-all-pages`
-
-* `-mime-type MIMETYPE`
-
-* `-retry-on CODES`
-
-* `-max-retries RETRIES`
-
-* `-raw-query QUERY`
-
-* `-retval SELECTION`
-
-* `-include OPTION`
-
-* `-page OPTION`
-
-* `-per-page OPTION`
-
-* `-sort-by OPTION`
-
-* `-sort-order OPTION`
+Curl configuration file providing an access token for API requests
 
 * `-v, -verbose`
 
-Enable verbose messages.
+Enable verbose messages
 
 * `-vv, -vverbose`
 
-Enable very verbose messages.
+Enable very verbose messages
 
 * `-vvv, -vvverbose`
 
-Enable very, very verbose messages.
-
+Enable very very verbose messages

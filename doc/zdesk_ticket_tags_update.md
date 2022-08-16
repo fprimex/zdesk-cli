@@ -1,16 +1,20 @@
 ## `zdesk ticket tags update`
 
-/tickets/{id}/tags.json
+/tickets/{TICKET_ID}/tags
 
 ### Synopsis
 
     zdesk ticket tags update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/tickets/{TICKET_ID}/tags
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tags#add-tags
+https://developer.zendesk.com/api-reference/ticketing/tags#add-tags
 
 ### Positional parameters
 
-* `ID`
+* `TICKET_ID`
 

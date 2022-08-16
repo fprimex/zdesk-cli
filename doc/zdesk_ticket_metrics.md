@@ -1,14 +1,18 @@
 ## `zdesk ticket metrics`
 
-/tickets/{ticket_id}/metrics.json
+/tickets/{TICKET_ID}/metrics
 
 ### Synopsis
 
     zdesk ticket metrics [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/tickets/{TICKET_ID}/metrics
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/ticket_metrics#show-ticket-metrics
+https://developer.zendesk.com/api-reference/ticketing/ticket_metrics#show-ticket-metrics
 
 ### Positional parameters
 

@@ -1,18 +1,22 @@
 ## `zdesk nps survey response update`
 
-/nps/surveys/{survey_id}/responses/{id}.json
+/nps/surveys/{SURVEY_ID}/responses/{RESPONSE_ID}
 
 ### Synopsis
 
     zdesk nps survey response update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/nps/surveys/{SURVEY_ID}/responses/{RESPONSE_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/nps-api/responses#update-response
+https://developer.zendesk.com/api-reference/ticketing/nps_responses#update-response
 
 ### Positional parameters
 
 * `SURVEY_ID`
 
-* `ID`
+* `RESPONSE_ID`
 

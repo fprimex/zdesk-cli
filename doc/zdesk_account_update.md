@@ -6,7 +6,11 @@
 
     zdesk account update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/account
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/accounts#update-account
+https://developer.zendesk.com/api-reference/live-chat/accounts#update-account
 

@@ -1,14 +1,18 @@
 ## `zdesk user organizations`
 
-/users/{user_id}/organizations.json
+/users/{USER_ID}/organizations.json
 
 ### Synopsis
 
     zdesk user organizations [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/users/{USER_ID}/organizations.json
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/organizations#list-organizations
+https://developer.zendesk.com/api-reference/ticketing/organizations#list-organizations
 
 ### Positional parameters
 

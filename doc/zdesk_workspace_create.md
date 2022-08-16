@@ -1,12 +1,16 @@
 ## `zdesk workspace create`
 
-/workspaces.json
+/workspaces
 
 ### Synopsis
 
     zdesk workspace create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/workspaces
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/workspaces#create-workspace
+https://developer.zendesk.com/api-reference/ticketing/workspaces#create-workspace
 

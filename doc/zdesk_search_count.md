@@ -1,14 +1,18 @@
 ## `zdesk search count`
 
-/search/count.json
+/search/count
 
 ### Synopsis
 
     zdesk search count [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/search/count
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/search#show-results-count
+https://developer.zendesk.com/api-reference/ticketing/search#show-results-count
 
 ### Options
 

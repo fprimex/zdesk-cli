@@ -1,12 +1,16 @@
 ## `zdesk locales public list`
 
-/locales/public.json
+/locales/public
 
 ### Synopsis
 
     zdesk locales public list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/locales/public
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/locales#list-available-public-locales
+https://developer.zendesk.com/api-reference/ticketing/locales#list-available-public-locales
 

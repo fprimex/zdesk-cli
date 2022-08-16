@@ -1,12 +1,16 @@
 ## `zdesk macros list`
 
-/macros.json
+/macros
 
 ### Synopsis
 
     zdesk macros list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/macros
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/macros#list-macros
+https://developer.zendesk.com/api-reference/ticketing/macros#list-macros
 

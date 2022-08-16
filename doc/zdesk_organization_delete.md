@@ -1,16 +1,20 @@
 ## `zdesk organization delete`
 
-/organizations/{id}.json
+/organizations/{ORGANIZATION_ID}
 
 ### Synopsis
 
     zdesk organization delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/organizations/{ORGANIZATION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/organizations#delete-organization
+https://developer.zendesk.com/api-reference/ticketing/organizations#delete-organization
 
 ### Positional parameters
 
-* `ID`
+* `ORGANIZATION_ID`
 

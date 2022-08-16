@@ -6,7 +6,11 @@
 
     zdesk incremental conversions list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/incremental/conversions
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/incremental_export#incremental-conversions-export
+https://developer.zendesk.com/api-reference/live-chat/incremental_export#incremental-conversions-export
 

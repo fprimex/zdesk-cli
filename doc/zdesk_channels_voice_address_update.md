@@ -1,16 +1,20 @@
 ## `zdesk channels voice address update`
 
-/channels/voice/addresses/{id}.json
+/channels/voice/addresses/{ADDRESS_ID}
 
 ### Synopsis
 
     zdesk channels voice address update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/channels/voice/addresses/{ADDRESS_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/voice-api/addresses#update-address
+https://developer.zendesk.com/api-reference/voice/talk-api/addresses#update-address
 
 ### Positional parameters
 
-* `ID`
+* `ADDRESS_ID`
 

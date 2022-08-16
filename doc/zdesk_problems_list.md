@@ -1,12 +1,16 @@
 ## `zdesk problems list`
 
-/problems.json
+/problems
 
 ### Synopsis
 
     zdesk problems list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/problems
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#listing-ticket-problems
+https://developer.zendesk.com/api-reference/ticketing/tickets#list-ticket-problems
 

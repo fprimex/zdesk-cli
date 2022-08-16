@@ -1,16 +1,20 @@
 ## `zdesk app show`
 
-/apps/{id}.json
+/apps/{APP_ID}
 
 ### Synopsis
 
     zdesk app show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/apps/{APP_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/apps#get-information-about-app
+https://developer.zendesk.com/api-reference/ticketing/apps#get-information-about-app
 
 ### Positional parameters
 
-* `ID`
+* `APP_ID`
 

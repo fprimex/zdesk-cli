@@ -6,7 +6,11 @@
 
     zdesk goals list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/goals
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/goals#get-all-goals
+https://developer.zendesk.com/api-reference/live-chat/goals#list-goals
 

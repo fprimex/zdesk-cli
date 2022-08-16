@@ -1,12 +1,16 @@
 ## `zdesk groups list`
 
-/groups.json
+/groups
 
 ### Synopsis
 
     zdesk groups list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/groups
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/groups#list-groups
+https://developer.zendesk.com/api-reference/ticketing/groups#list-groups
 

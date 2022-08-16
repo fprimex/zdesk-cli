@@ -1,14 +1,18 @@
 ## `zdesk nps survey invitations`
 
-/nps/surveys/{survey_id}/invitations.json
+/nps/surveys/{SURVEY_ID}/invitations
 
 ### Synopsis
 
     zdesk nps survey invitations [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/nps/surveys/{SURVEY_ID}/invitations
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/nps-api/invitations#list-invitations
+https://developer.zendesk.com/api-reference/ticketing/nps_invitations#list-invitations
 
 ### Positional parameters
 

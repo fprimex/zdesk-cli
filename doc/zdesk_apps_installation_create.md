@@ -1,12 +1,16 @@
 ## `zdesk apps installation create`
 
-/apps/installations.json
+/apps/installations
 
 ### Synopsis
 
     zdesk apps installation create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/apps/installations
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/apps#install-app
+https://developer.zendesk.com/api-reference/ticketing/apps#install-app
 

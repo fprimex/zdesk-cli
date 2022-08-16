@@ -1,12 +1,16 @@
 ## `zdesk workspaces list`
 
-/workspaces.json
+/workspaces
 
 ### Synopsis
 
     zdesk workspaces list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/workspaces
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/workspaces#list-workspaces
+https://developer.zendesk.com/api-reference/ticketing/workspaces#list-workspaces
 

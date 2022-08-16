@@ -1,12 +1,16 @@
 ## `zdesk macros attachment create`
 
-/macros/attachments.json
+/macros/attachments
 
 ### Synopsis
 
     zdesk macros attachment create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/macros/attachments
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/macros#create-unassociated-macro-attachment
+https://developer.zendesk.com/api-reference/ticketing/macros#create-unassociated-macro-attachment
 

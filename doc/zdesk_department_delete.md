@@ -1,14 +1,18 @@
 ## `zdesk department delete`
 
-/departments/{department_id}
+/departments/{DEPARTMENT_ID}
 
 ### Synopsis
 
     zdesk department delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/departments/{DEPARTMENT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/departments#delete-department-by-id
+https://developer.zendesk.com/api-reference/live-chat/departments#delete-department
 
 ### Positional parameters
 

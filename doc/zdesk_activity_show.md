@@ -1,14 +1,18 @@
 ## `zdesk activity show`
 
-/activities/{activity_id}.json
+/activities/{ACTIVITY_ID}
 
 ### Synopsis
 
     zdesk activity show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/activities/{ACTIVITY_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/activity_stream#show-activity
+https://developer.zendesk.com/api-reference/ticketing/activity_stream#show-activity
 
 ### Positional parameters
 

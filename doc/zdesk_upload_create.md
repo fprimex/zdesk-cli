@@ -1,18 +1,16 @@
 ## `zdesk upload create`
 
-/uploads.json
+/uploads
 
 ### Synopsis
 
     zdesk upload create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/uploads
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/attachments#upload-files
-
-### Options
-
-* `-filename OPTION`
-
-* `-token OPTION`
+https://developer.zendesk.com/api-reference/ticketing/ticket-attachments#upload-files
 

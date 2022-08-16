@@ -1,16 +1,20 @@
 ## `zdesk organization tags update`
 
-/organizations/{id}/tags.json
+/organizations/{ORGANIZATION_ID}/tags
 
 ### Synopsis
 
     zdesk organization tags update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/organizations/{ORGANIZATION_ID}/tags
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tags#add-tags
+https://developer.zendesk.com/api-reference/ticketing/tags#add-tags
 
 ### Positional parameters
 
-* `ID`
+* `ORGANIZATION_ID`
 

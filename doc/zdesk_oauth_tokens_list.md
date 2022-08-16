@@ -6,7 +6,11 @@
 
     zdesk oauth tokens list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/oauth/tokens
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/oauth_tokens#list-tokens
+https://developer.zendesk.com/api-reference/live-chat/oauth_tokens#list-oauth-tokens
 

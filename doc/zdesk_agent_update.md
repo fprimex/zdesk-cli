@@ -1,14 +1,18 @@
 ## `zdesk agent update`
 
-/agents/{agent_id}
+/agents/{AGENT_ID}
 
 ### Synopsis
 
     zdesk agent update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/agents/{AGENT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/agents#update-agent
+https://developer.zendesk.com/api-reference/live-chat/agents#update-agent
 
 ### Positional parameters
 

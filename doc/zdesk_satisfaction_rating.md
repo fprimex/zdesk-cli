@@ -1,1 +1,0 @@
-## `zdesk satisfaction-rating`

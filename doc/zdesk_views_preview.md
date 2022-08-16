@@ -1,12 +1,16 @@
 ## `zdesk views preview`
 
-/views/preview.json
+/views/preview
 
 ### Synopsis
 
     zdesk views preview [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/views/preview
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/views#previewing-views
+https://developer.zendesk.com/api-reference/ticketing/views#preview-views
 

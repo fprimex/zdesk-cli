@@ -1,14 +1,18 @@
 ## `zdesk guide theming theme show`
 
-/guide/theming/themes/{id}
+/guide/theming/themes/{ID}
 
 ### Synopsis
 
     zdesk guide theming theme show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/guide/theming/themes/{ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/theming#show-theme
+https://developer.zendesk.com/api-reference/help_center/help-center-api/theming#show-theme
 
 ### Positional parameters
 

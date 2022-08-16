@@ -6,7 +6,11 @@
 
     zdesk trigger create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/triggers
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/triggers#create-trigger
+https://developer.zendesk.com/api-reference/live-chat/triggers#create-trigger
 

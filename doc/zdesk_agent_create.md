@@ -6,7 +6,11 @@
 
     zdesk agent create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/agents
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/agents#create-agent
+https://developer.zendesk.com/api-reference/live-chat/agents#create-agent
 

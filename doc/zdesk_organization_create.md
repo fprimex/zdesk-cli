@@ -1,12 +1,16 @@
 ## `zdesk organization create`
 
-/organizations.json
+/organizations
 
 ### Synopsis
 
     zdesk organization create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/organizations
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/organizations#create-organization
+https://developer.zendesk.com/api-reference/ticketing/organizations#create-organization
 

@@ -1,16 +1,20 @@
 ## `zdesk macro update`
 
-/macros/{id}.json
+/macros/{MACRO_ID}
 
 ### Synopsis
 
     zdesk macro update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/macros/{MACRO_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/macros#update-macro
+https://developer.zendesk.com/api-reference/ticketing/macros#update-macro
 
 ### Positional parameters
 
-* `ID`
+* `MACRO_ID`
 

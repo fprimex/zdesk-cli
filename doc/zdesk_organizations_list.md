@@ -1,12 +1,16 @@
 ## `zdesk organizations list`
 
-/organizations.json
+/organizations
 
 ### Synopsis
 
     zdesk organizations list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/organizations
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/organizations#list-organizations
+https://developer.zendesk.com/api-reference/ticketing/organizations#list-organizations
 

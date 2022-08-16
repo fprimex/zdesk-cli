@@ -1,14 +1,18 @@
 ## `zdesk ticket skips`
 
-/tickets/{ticket_id}/skips.json
+/tickets/{TICKET_ID}/skips.json
 
 ### Synopsis
 
     zdesk ticket skips [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/tickets/{TICKET_ID}/skips.json
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/ticket_skips#list-skips-for-the-current-account
+https://developer.zendesk.com/api-reference/ticketing/ticket_skips#list-ticket-skips
 
 ### Positional parameters
 

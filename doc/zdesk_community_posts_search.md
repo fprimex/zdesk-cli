@@ -6,9 +6,13 @@
 
     zdesk community posts search [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/community/posts/search.json
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/search#filtering-by-date
+https://developer.zendesk.com/api-reference/help_center/help-center-api/search#filtering-by-date-1
 
 ### Options
 

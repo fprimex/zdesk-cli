@@ -1,16 +1,20 @@
 ## `zdesk view show`
 
-/views/{id}.json
+/views/{VIEW_ID}
 
 ### Synopsis
 
     zdesk view show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/views/{VIEW_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/views#show-view
+https://developer.zendesk.com/api-reference/ticketing/views#show-view
 
 ### Positional parameters
 
-* `ID`
+* `VIEW_ID`
 

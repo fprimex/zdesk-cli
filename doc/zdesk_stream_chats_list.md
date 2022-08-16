@@ -6,9 +6,13 @@
 
     zdesk stream chats list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/stream/chats
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/apis#get-all-chat-metrics
+https://developer.zendesk.com/api-reference/live-chat/rest#get-all-chat-metrics
 
 ### Options
 

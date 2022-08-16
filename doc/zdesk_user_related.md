@@ -1,16 +1,20 @@
 ## `zdesk user related`
 
-/users/{id}/related.json
+/users/{USER_ID}/related
 
 ### Synopsis
 
     zdesk user related [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/users/{USER_ID}/related
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/users#user-related-information
+https://developer.zendesk.com/api-reference/ticketing/users#show-user-related-information
 
 ### Positional parameters
 
-* `ID`
+* `USER_ID`
 

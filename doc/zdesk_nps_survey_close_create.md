@@ -1,16 +1,20 @@
 ## `zdesk nps survey close create`
 
-/nps/surveys/{id}/close
+/nps/surveys/{SURVEY_ID}/close
 
 ### Synopsis
 
     zdesk nps survey close create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/nps/surveys/{SURVEY_ID}/close
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/nps-api/surveys#close-survey
+https://developer.zendesk.com/api-reference/ticketing/nps_surveys#close-survey
 
 ### Positional parameters
 
-* `ID`
+* `SURVEY_ID`
 

@@ -1,14 +1,18 @@
 ## `zdesk department show`
 
-/departments/{department_id}
+/departments/{DEPARTMENT_ID}
 
 ### Synopsis
 
     zdesk department show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/departments/{DEPARTMENT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/departments#get-department-by-id
+https://developer.zendesk.com/api-reference/live-chat/departments#show-department
 
 ### Positional parameters
 

@@ -1,12 +1,16 @@
 ## `zdesk apps owned list`
 
-/apps/owned.json
+/apps/owned
 
 ### Synopsis
 
     zdesk apps owned list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/apps/owned
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/apps#list-owned-apps
+https://developer.zendesk.com/api-reference/ticketing/apps#list-owned-apps
 

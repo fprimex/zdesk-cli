@@ -1,14 +1,18 @@
 ## `zdesk organization subscriptions`
 
-/organizations/{organization_id}/subscriptions.json
+/organizations/{ORGANIZATION_ID}/subscriptions
 
 ### Synopsis
 
     zdesk organization subscriptions [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/organizations/{ORGANIZATION_ID}/subscriptions
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/organization_subscriptions#list-organization-subscriptions
+https://developer.zendesk.com/api-reference/ticketing/organization_subscriptions#list-organization-subscriptions
 
 ### Positional parameters
 

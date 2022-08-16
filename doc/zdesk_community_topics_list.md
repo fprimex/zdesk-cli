@@ -1,12 +1,16 @@
 ## `zdesk community topics list`
 
-/community/topics.json
+/community/topics
 
 ### Synopsis
 
     zdesk community topics list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/community/topics
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/topics#list-topics
+https://developer.zendesk.com/api-reference/help_center/help-center-api/topics#list-topics
 

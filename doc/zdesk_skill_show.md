@@ -1,14 +1,18 @@
 ## `zdesk skill show`
 
-/skills/{skill_id}
+/skills/{SKILL_ID}
 
 ### Synopsis
 
     zdesk skill show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/skills/{SKILL_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/skills#get-skill-by-id
+https://developer.zendesk.com/api-reference/live-chat/skills#show-skill
 
 ### Positional parameters
 

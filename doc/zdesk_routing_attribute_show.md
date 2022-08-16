@@ -1,14 +1,18 @@
 ## `zdesk routing attribute show`
 
-/routing/attributes/{attribute_id}.json
+/routing/attributes/{ATTRIBUTE_ID}
 
 ### Synopsis
 
     zdesk routing attribute show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/routing/attributes/{ATTRIBUTE_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/skill_based_routing#show-attribute
+https://developer.zendesk.com/api-reference/ticketing/skill_based_routing#show-attribute
 
 ### Positional parameters
 

@@ -1,22 +1,16 @@
 ## `zdesk requests search`
 
-/requests/search.json
+/requests/search
 
 ### Synopsis
 
     zdesk requests search [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/requests/search
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/requests#search-requests
-
-### Options
-
-* `-cc-id OPTION`
-
-* `-organization-id OPTION`
-
-* `-query OPTION`
-
-* `-status OPTION`
+https://developer.zendesk.com/api-reference/ticketing/ticket-requests#search-requests
 

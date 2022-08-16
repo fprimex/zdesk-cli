@@ -1,16 +1,20 @@
 ## `zdesk macro show`
 
-/macros/{id}.json
+/macros/{MACRO_ID}
 
 ### Synopsis
 
     zdesk macro show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/macros/{MACRO_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/macros#show-macro
+https://developer.zendesk.com/api-reference/ticketing/macros#show-macro
 
 ### Positional parameters
 
-* `ID`
+* `MACRO_ID`
 

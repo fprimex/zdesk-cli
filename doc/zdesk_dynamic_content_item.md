@@ -1,1 +1,0 @@
-## `zdesk dynamic-content item`

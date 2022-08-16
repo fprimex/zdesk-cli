@@ -1,18 +1,22 @@
 ## `zdesk user session show`
 
-/users/{user_id}/sessions/{id}.json
+/users/{USER_ID}/sessions/{SESSION_ID}
 
 ### Synopsis
 
     zdesk user session show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/users/{USER_ID}/sessions/{SESSION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/sessions#show-session
+https://developer.zendesk.com/api-reference/ticketing/sessions#show-session
 
 ### Positional parameters
 
 * `USER_ID`
 
-* `ID`
+* `SESSION_ID`
 

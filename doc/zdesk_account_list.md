@@ -6,7 +6,11 @@
 
     zdesk account list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/account
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/accounts#get-account
+https://developer.zendesk.com/api-reference/live-chat/accounts#show-account
 

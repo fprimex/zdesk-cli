@@ -6,7 +6,11 @@
 
     zdesk role create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/roles
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/roles#create-role
+https://developer.zendesk.com/api-reference/live-chat/roles#create-role
 

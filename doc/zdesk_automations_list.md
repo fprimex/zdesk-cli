@@ -1,12 +1,16 @@
 ## `zdesk automations list`
 
-/automations.json
+/automations
 
 ### Synopsis
 
     zdesk automations list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/automations
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/automations#list-automations
+https://developer.zendesk.com/api-reference/ticketing/automations#list-automations
 

@@ -1,12 +1,16 @@
 ## `zdesk target create`
 
-/targets.json
+/targets
 
 ### Synopsis
 
     zdesk target create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/targets
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/targets#create-target
+https://developer.zendesk.com/api-reference/ticketing/targets#create-target
 

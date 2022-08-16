@@ -6,7 +6,11 @@
 
     zdesk slas policies list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/slas/policies
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/sla_policies#list-sla-policies
+https://developer.zendesk.com/api-reference/ticketing/sla_policies#list-sla-policies
 

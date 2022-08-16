@@ -1,16 +1,20 @@
 ## `zdesk channels voice address show`
 
-/channels/voice/addresses/{id}.json
+/channels/voice/addresses/{ADDRESS_ID}
 
 ### Synopsis
 
     zdesk channels voice address show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/channels/voice/addresses/{ADDRESS_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/voice-api/addresses#show-address
+https://developer.zendesk.com/api-reference/voice/talk-api/addresses#show-address
 
 ### Positional parameters
 
-* `ID`
+* `ADDRESS_ID`
 

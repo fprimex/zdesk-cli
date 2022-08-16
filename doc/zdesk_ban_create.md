@@ -6,7 +6,11 @@
 
     zdesk ban create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/bans
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/bans#create-ban
+https://developer.zendesk.com/api-reference/live-chat/bans#create-ban
 

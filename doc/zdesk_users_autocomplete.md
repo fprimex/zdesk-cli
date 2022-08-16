@@ -1,14 +1,18 @@
 ## `zdesk users autocomplete`
 
-/users/autocomplete.json
+/users/autocomplete
 
 ### Synopsis
 
     zdesk users autocomplete [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/users/autocomplete
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/users#autocomplete-users
+https://developer.zendesk.com/api-reference/ticketing/users#autocomplete-users
 
 ### Options
 

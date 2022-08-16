@@ -1,14 +1,18 @@
 ## `zdesk department update`
 
-/departments/{department_id}
+/departments/{DEPARTMENT_ID}
 
 ### Synopsis
 
     zdesk department update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/departments/{DEPARTMENT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/departments#update-department-by-id
+https://developer.zendesk.com/api-reference/live-chat/departments#update-department
 
 ### Positional parameters
 

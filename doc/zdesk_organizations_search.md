@@ -1,14 +1,18 @@
 ## `zdesk organizations search`
 
-/organizations/search.json
+/organizations/search
 
 ### Synopsis
 
     zdesk organizations search [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/organizations/search
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/organizations#search-organizations-by-external-id
+https://developer.zendesk.com/api-reference/ticketing/organizations#search-organizations-by-external-id
 
 ### Options
 

@@ -1,16 +1,16 @@
 ## `zdesk requests list`
 
-/requests.json
+/requests
 
 ### Synopsis
 
     zdesk requests list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/requests
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/requests#list-requests
-
-### Options
-
-* `-status OPTION`
+https://developer.zendesk.com/api-reference/ticketing/ticket-requests#list-requests
 

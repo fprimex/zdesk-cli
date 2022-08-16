@@ -1,12 +1,16 @@
 ## `zdesk macros categories list`
 
-/macros/categories.json
+/macros/categories
 
 ### Synopsis
 
     zdesk macros categories list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/macros/categories
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/macros#list-macro-categories
+https://developer.zendesk.com/api-reference/ticketing/macros#list-macro-categories
 

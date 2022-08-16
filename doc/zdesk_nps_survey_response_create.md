@@ -1,14 +1,18 @@
 ## `zdesk nps survey response create`
 
-/nps/surveys/{survey_id}/responses.json
+/nps/surveys/{SURVEY_ID}/responses
 
 ### Synopsis
 
     zdesk nps survey response create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/nps/surveys/{SURVEY_ID}/responses
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/nps-api/responses#create-response
+https://developer.zendesk.com/api-reference/ticketing/nps_responses#create-response
 
 ### Positional parameters
 

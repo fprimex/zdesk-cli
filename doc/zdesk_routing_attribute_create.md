@@ -1,12 +1,16 @@
 ## `zdesk routing attribute create`
 
-/routing/attributes.json
+/routing/attributes
 
 ### Synopsis
 
     zdesk routing attribute create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/routing/attributes
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/skill_based_routing#create-attribute
+https://developer.zendesk.com/api-reference/ticketing/skill_based_routing#create-attribute
 

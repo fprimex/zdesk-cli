@@ -1,18 +1,22 @@
 ## `zdesk ticket macro apply`
 
-/tickets/{ticket_id}/macros/{id}/apply.json
+/tickets/{TICKET_ID}/macros/{MACRO_ID}/apply
 
 ### Synopsis
 
     zdesk ticket macro apply [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/tickets/{TICKET_ID}/macros/{MACRO_ID}/apply
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/macros#show-ticket-after-changes
+https://developer.zendesk.com/api-reference/ticketing/macros#show-ticket-after-changes
 
 ### Positional parameters
 
 * `TICKET_ID`
 
-* `ID`
+* `MACRO_ID`
 

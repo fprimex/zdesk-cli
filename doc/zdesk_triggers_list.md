@@ -6,7 +6,11 @@
 
     zdesk triggers list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/triggers
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/triggers#get-all-triggers
+https://developer.zendesk.com/api-reference/live-chat/triggers#list-triggers
 

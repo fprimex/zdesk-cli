@@ -6,9 +6,13 @@
 
     zdesk chats list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/chats
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/chats#list-all-chats
+https://developer.zendesk.com/api-reference/live-chat/introduction/documentation/live-chat/getting-started/restrictions/
 
 ### Options
 

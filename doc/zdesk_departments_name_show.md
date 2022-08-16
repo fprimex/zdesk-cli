@@ -1,16 +1,20 @@
 ## `zdesk departments name show`
 
-/departments/name/{name}
+/departments/name/{DEPARTMENT_NAME}
 
 ### Synopsis
 
     zdesk departments name show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/departments/name/{DEPARTMENT_NAME}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/departments#get-department-by-name
+https://developer.zendesk.com/api-reference/live-chat/departments#show-department-by-name
 
 ### Positional parameters
 
-* `NAME`
+* `DEPARTMENT_NAME`
 

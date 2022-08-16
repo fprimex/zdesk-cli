@@ -1,1 +1,0 @@
-## `zdesk core-oauth`

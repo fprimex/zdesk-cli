@@ -1,16 +1,20 @@
 ## `zdesk ticket show`
 
-/tickets/{id}.json
+/tickets/{TICKET_ID}
 
 ### Synopsis
 
     zdesk ticket show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/tickets/{TICKET_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#show-ticket
+https://developer.zendesk.com/api-reference/ticketing/tickets#show-ticket
 
 ### Positional parameters
 
-* `ID`
+* `TICKET_ID`
 

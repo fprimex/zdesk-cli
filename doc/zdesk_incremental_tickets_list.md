@@ -1,14 +1,18 @@
 ## `zdesk incremental tickets list`
 
-/incremental/tickets.json
+/incremental/tickets
 
 ### Synopsis
 
     zdesk incremental tickets list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/incremental/tickets
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/incremental_export#start-time
+https://developer.zendesk.com/api-reference/ticketing/incremental_exports#incremental-ticket-export-time-based
 
 ### Options
 

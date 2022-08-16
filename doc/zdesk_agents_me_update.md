@@ -6,7 +6,11 @@
 
     zdesk agents me update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/agents/me
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/agents#update-requesting-agent
+https://developer.zendesk.com/api-reference/live-chat/agents#update-requesting-agent
 

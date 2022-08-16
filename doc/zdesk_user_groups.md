@@ -1,14 +1,18 @@
 ## `zdesk user groups`
 
-/users/{user_id}/groups.json
+/users/{USER_ID}/groups
 
 ### Synopsis
 
     zdesk user groups [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/users/{USER_ID}/groups
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/groups#list-groups
+https://developer.zendesk.com/api-reference/ticketing/groups#list-groups
 
 ### Positional parameters
 

@@ -6,9 +6,13 @@
 
     zdesk chats search [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/chats/search
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/chats#search-chats
+https://developer.zendesk.com/api-reference/live-chat/chats#search-chats
 
 ### Options
 

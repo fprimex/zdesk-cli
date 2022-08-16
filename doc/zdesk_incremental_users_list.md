@@ -1,14 +1,18 @@
 ## `zdesk incremental users list`
 
-/incremental/users.json
+/incremental/users
 
 ### Synopsis
 
     zdesk incremental users list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/incremental/users
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/incremental_export#incremental-ticket-event-export
+https://developer.zendesk.com/api-reference/ticketing/incremental_exports#incremental-user-export-time-based
 
 ### Options
 

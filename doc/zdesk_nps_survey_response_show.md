@@ -1,18 +1,22 @@
 ## `zdesk nps survey response show`
 
-/nps/surveys/{survey_id}/responses/{id}.json
+/nps/surveys/{SURVEY_ID}/responses/{RESPONSE_ID}
 
 ### Synopsis
 
     zdesk nps survey response show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/nps/surveys/{SURVEY_ID}/responses/{RESPONSE_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/nps-api/responses#show-response
+https://developer.zendesk.com/api-reference/ticketing/nps_responses#show-response
 
 ### Positional parameters
 
 * `SURVEY_ID`
 
-* `ID`
+* `RESPONSE_ID`
 

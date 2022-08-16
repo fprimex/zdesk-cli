@@ -1,16 +1,20 @@
 ## `zdesk app update`
 
-/apps/{id}.json
+/apps/{APP_ID}
 
 ### Synopsis
 
     zdesk app update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/apps/{APP_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/apps#update-app
+https://developer.zendesk.com/api-reference/ticketing/apps#update-app
 
 ### Positional parameters
 
-* `ID`
+* `APP_ID`
 

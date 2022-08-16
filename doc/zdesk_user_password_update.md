@@ -1,14 +1,18 @@
 ## `zdesk user password update`
 
-/users/{user_id}/password.json
+/users/{USER_ID}/password
 
 ### Synopsis
 
     zdesk user password update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/users/{USER_ID}/password
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/user_passwords#change-your-password
+https://developer.zendesk.com/api-reference/ticketing/user_passwords#change-your-password
 
 ### Positional parameters
 

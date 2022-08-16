@@ -1,14 +1,18 @@
 ## `zdesk organizations autocomplete`
 
-/organizations/autocomplete.json
+/organizations/autocomplete
 
 ### Synopsis
 
     zdesk organizations autocomplete [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/organizations/autocomplete
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/organizations#autocomplete-organizations
+https://developer.zendesk.com/api-reference/ticketing/organizations#autocomplete-organizations
 
 ### Options
 

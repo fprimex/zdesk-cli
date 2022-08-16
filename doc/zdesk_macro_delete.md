@@ -1,16 +1,20 @@
 ## `zdesk macro delete`
 
-/macros/{id}.json
+/macros/{MACRO_ID}
 
 ### Synopsis
 
     zdesk macro delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/macros/{MACRO_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/macros#delete-macro
+https://developer.zendesk.com/api-reference/ticketing/macros#delete-macro
 
 ### Positional parameters
 
-* `ID`
+* `MACRO_ID`
 

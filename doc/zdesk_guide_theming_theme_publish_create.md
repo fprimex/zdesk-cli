@@ -1,14 +1,18 @@
 ## `zdesk guide theming theme publish create`
 
-/guide/theming/themes/{id}/publish
+/guide/theming/themes/{ID}/publish
 
 ### Synopsis
 
     zdesk guide theming theme publish create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/guide/theming/themes/{ID}/publish
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/theming#publish-theme
+https://developer.zendesk.com/api-reference/help_center/help-center-api/theming#publish-theme
 
 ### Positional parameters
 

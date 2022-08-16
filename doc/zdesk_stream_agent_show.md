@@ -1,14 +1,18 @@
 ## `zdesk stream agent show`
 
-/stream/agents/{metric_key}
+/stream/agents/{METRIC_KEY}
 
 ### Synopsis
 
     zdesk stream agent show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/stream/agents/{METRIC_KEY}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/apis#get-single-status-for-agents
+https://developer.zendesk.com/api-reference/live-chat/rest#get-agent-status-count
 
 ### Positional parameters
 

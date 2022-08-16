@@ -1,12 +1,16 @@
 ## `zdesk ticket create`
 
-/tickets.json
+/tickets
 
 ### Synopsis
 
     zdesk ticket create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/tickets
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#create-ticket
+https://developer.zendesk.com/api-reference/ticketing/tickets#create-ticket
 

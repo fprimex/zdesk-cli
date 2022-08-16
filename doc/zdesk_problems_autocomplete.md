@@ -1,16 +1,16 @@
 ## `zdesk problems autocomplete`
 
-/problems/autocomplete.json
+/problems/autocomplete
 
 ### Synopsis
 
     zdesk problems autocomplete [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/problems/autocomplete
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#autocomplete-problems
-
-### Options
-
-* `-text OPTION`
+https://developer.zendesk.com/api-reference/ticketing/tickets#autocomplete-problems
 

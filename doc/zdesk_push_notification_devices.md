@@ -1,1 +1,0 @@
-## `zdesk push-notification-devices`

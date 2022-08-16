@@ -1,12 +1,16 @@
 ## `zdesk locales agent list`
 
-/locales/agent.json
+/locales/agent
 
 ### Synopsis
 
     zdesk locales agent list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/locales/agent
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/locales#list-locales-for-agent
+https://developer.zendesk.com/api-reference/ticketing/locales#list-locales-for-agent
 

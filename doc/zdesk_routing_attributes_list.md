@@ -1,12 +1,16 @@
 ## `zdesk routing attributes list`
 
-/routing/attributes.json
+/routing/attributes
 
 ### Synopsis
 
     zdesk routing attributes list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/routing/attributes
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/skill_based_routing#list-account-attributes
+https://developer.zendesk.com/api-reference/ticketing/skill_based_routing#list-account-attributes
 

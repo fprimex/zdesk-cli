@@ -1,16 +1,20 @@
 ## `zdesk organization tags delete`
 
-/organizations/{id}/tags.json
+/organizations/{ORGANIZATION_ID}/tags
 
 ### Synopsis
 
     zdesk organization tags delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/organizations/{ORGANIZATION_ID}/tags
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tags#remove-tags
+https://developer.zendesk.com/api-reference/ticketing/tags#remove-tags
 
 ### Positional parameters
 
-* `ID`
+* `ORGANIZATION_ID`
 

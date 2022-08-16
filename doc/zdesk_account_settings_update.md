@@ -1,12 +1,16 @@
 ## `zdesk account settings update`
 
-/account/settings.json
+/account/settings
 
 ### Synopsis
 
     zdesk account settings update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/account/settings
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/account_settings#update-account-settings
+https://developer.zendesk.com/api-reference/ticketing/account_settings#update-account-settings
 

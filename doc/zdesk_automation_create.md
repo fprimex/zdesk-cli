@@ -1,12 +1,16 @@
 ## `zdesk automation create`
 
-/automations.json
+/automations
 
 ### Synopsis
 
     zdesk automation create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/automations
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/automations#create-automation
+https://developer.zendesk.com/api-reference/ticketing/automations#create-automation
 

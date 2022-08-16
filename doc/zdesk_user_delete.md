@@ -1,16 +1,20 @@
 ## `zdesk user delete`
 
-/users/{id}.json
+/users/{USER_ID}
 
 ### Synopsis
 
     zdesk user delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/users/{USER_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/users#delete-user
+https://developer.zendesk.com/api-reference/ticketing/users#delete-user
 
 ### Positional parameters
 
-* `ID`
+* `USER_ID`
 

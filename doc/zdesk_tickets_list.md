@@ -6,11 +6,20 @@
 
     zdesk tickets list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/tickets.json
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#json-format
+https://developer.zendesk.com/api-reference/ticketing/tickets/api-reference/voice/talk-partner-edition-api/reference/#creating-voicemail-tickets
 
 ### Options
 
-* `-external-id OPTION`
+* `-include OPTION`
 
+### Output
+
+| ID    | Status         | Priority    |
+| ----- | -------------- | ----------- |
+| `.id` | `.status`      | `.priority` | `.tickets` |

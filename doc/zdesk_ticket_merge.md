@@ -1,16 +1,20 @@
 ## `zdesk ticket merge`
 
-/tickets/{id}/merge.json
+/tickets/{TICKET_ID}/merge
 
 ### Synopsis
 
     zdesk ticket merge [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/tickets/{TICKET_ID}/merge
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#merge-tickets-into-target-ticket
+https://developer.zendesk.com/api-reference/ticketing/tickets#merge-tickets-into-target-ticket
 
 ### Positional parameters
 
-* `ID`
+* `TICKET_ID`
 

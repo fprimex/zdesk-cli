@@ -1,16 +1,20 @@
 ## `zdesk skills name update`
 
-/skills/name/{name}
+/skills/name/{SKILL_NAME}
 
 ### Synopsis
 
     zdesk skills name update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/skills/name/{SKILL_NAME}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/skills#update-skill-by-name
+https://developer.zendesk.com/api-reference/live-chat/skills#update-skill-by-name
 
 ### Positional parameters
 
-* `NAME`
+* `SKILL_NAME`
 

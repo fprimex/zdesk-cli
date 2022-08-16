@@ -1,16 +1,20 @@
 ## `zdesk slas policy delete`
 
-/slas/policies/{id}
+/slas/policies/{SLA_POLICY_ID}
 
 ### Synopsis
 
     zdesk slas policy delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/slas/policies/{SLA_POLICY_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/sla_policies#delete-sla-policy
+https://developer.zendesk.com/api-reference/ticketing/sla_policies#delete-sla-policy
 
 ### Positional parameters
 
-* `ID`
+* `SLA_POLICY_ID`
 

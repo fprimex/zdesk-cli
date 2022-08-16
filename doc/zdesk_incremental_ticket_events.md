@@ -1,1 +1,0 @@
-## `zdesk incremental ticket-events`

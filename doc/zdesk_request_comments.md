@@ -1,16 +1,20 @@
 ## `zdesk request comments`
 
-/requests/{id}/comments.json
+/requests/{REQUEST_ID}/comments
 
 ### Synopsis
 
     zdesk request comments [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/requests/{REQUEST_ID}/comments
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/requests#listing-comments
+https://developer.zendesk.com/api-reference/ticketing/ticket-requests#listing-comments
 
 ### Positional parameters
 
-* `ID`
+* `REQUEST_ID`
 

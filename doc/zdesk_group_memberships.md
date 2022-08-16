@@ -1,14 +1,18 @@
 ## `zdesk group memberships`
 
-/groups/{group_id}/memberships.json
+/groups/{GROUP_ID}/memberships
 
 ### Synopsis
 
     zdesk group memberships [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/groups/{GROUP_ID}/memberships
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/group_memberships#list-memberships
+https://developer.zendesk.com/api-reference/ticketing/group_memberships#list-memberships
 
 ### Positional parameters
 

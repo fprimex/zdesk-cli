@@ -1,16 +1,20 @@
 ## `zdesk user tags update`
 
-/users/{id}/tags.json
+/users/{USER_ID}/tags
 
 ### Synopsis
 
     zdesk user tags update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/users/{USER_ID}/tags
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tags#add-tags
+https://developer.zendesk.com/api-reference/ticketing/tags#add-tags
 
 ### Positional parameters
 
-* `ID`
+* `USER_ID`
 

@@ -1,12 +1,16 @@
 ## `zdesk views compact`
 
-/views/compact.json
+/views/compact
 
 ### Synopsis
 
     zdesk views compact [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/views/compact
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/views#list-views---compact
+https://developer.zendesk.com/api-reference/ticketing/views#list-views---compact
 

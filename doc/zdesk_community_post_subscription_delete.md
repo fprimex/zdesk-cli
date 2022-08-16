@@ -1,18 +1,22 @@
 ## `zdesk community post subscription delete`
 
-/community/posts/{post_id}/subscriptions/{id}.json
+/community/posts/{POST_ID}/subscriptions/{SUBSCRIPTION_ID}
 
 ### Synopsis
 
     zdesk community post subscription delete [ ... ]
 
+### REST endpoint
+
+    DELETE https://{HOSTNAME}/api/v2/community/posts/{POST_ID}/subscriptions/{SUBSCRIPTION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/subscriptions#delete-post-subscription
+https://developer.zendesk.com/api-reference/help_center/help-center-api/content_subscriptions#delete-post-subscription
 
 ### Positional parameters
 
 * `POST_ID`
 
-* `ID`
+* `SUBSCRIPTION_ID`
 

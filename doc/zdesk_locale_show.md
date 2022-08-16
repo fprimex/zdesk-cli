@@ -1,16 +1,20 @@
 ## `zdesk locale show`
 
-/locales/{id}.json
+/locales/{LOCALE_ID}
 
 ### Synopsis
 
     zdesk locale show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/locales/{LOCALE_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/locales#show-locale
+https://developer.zendesk.com/api-reference/ticketing/locales#show-locale
 
 ### Positional parameters
 
-* `ID`
+* `LOCALE_ID`
 

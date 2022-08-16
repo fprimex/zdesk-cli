@@ -1,20 +1,20 @@
 ## `zdesk user tickets assigned`
 
-/users/{user_id}/tickets/assigned.json
+/users/{USER_ID}/tickets/assigned
 
 ### Synopsis
 
     zdesk user tickets assigned [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/users/{USER_ID}/tickets/assigned
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#allowed-for
+https://developer.zendesk.com/api-reference/ticketing/tickets#list-tickets
 
 ### Positional parameters
 
 * `USER_ID`
-
-### Options
-
-* `-external-id OPTION`
 

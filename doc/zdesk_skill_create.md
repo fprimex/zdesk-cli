@@ -6,7 +6,11 @@
 
     zdesk skill create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/skills
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/skills#create-skill
+https://developer.zendesk.com/api-reference/live-chat/skills#create-skill
 

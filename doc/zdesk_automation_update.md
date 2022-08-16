@@ -1,16 +1,20 @@
 ## `zdesk automation update`
 
-/automations/{id}.json
+/automations/{AUTOMATION_ID}
 
 ### Synopsis
 
     zdesk automation update [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/automations/{AUTOMATION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/automations#update-automation
+https://developer.zendesk.com/api-reference/ticketing/automations#update-automation
 
 ### Positional parameters
 
-* `ID`
+* `AUTOMATION_ID`
 

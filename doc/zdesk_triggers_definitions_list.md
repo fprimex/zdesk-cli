@@ -1,12 +1,16 @@
 ## `zdesk triggers definitions list`
 
-/triggers/definitions.json
+/triggers/definitions
 
 ### Synopsis
 
     zdesk triggers definitions list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/triggers/definitions
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/triggers#list-trigger-action-and-condition-definitions
+https://developer.zendesk.com/api-reference/ticketing/triggers#list-trigger-action-and-condition-definitions
 

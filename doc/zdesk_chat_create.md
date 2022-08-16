@@ -6,7 +6,11 @@
 
     zdesk chat create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/chats
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/chat/chats#create-chat
+https://developer.zendesk.com/api-reference/live-chat/chats#create-chat
 

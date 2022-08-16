@@ -1,16 +1,20 @@
 ## `zdesk user merge`
 
-/users/{id}/merge.json
+/users/{USER_ID}/merge
 
 ### Synopsis
 
     zdesk user merge [ ... ]
 
+### REST endpoint
+
+    PUT https://{HOSTNAME}/api/v2/users/{USER_ID}/merge
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/users#merge-end-users
+https://developer.zendesk.com/api-reference/ticketing/users#merge-end-users
 
 ### Positional parameters
 
-* `ID`
+* `USER_ID`
 

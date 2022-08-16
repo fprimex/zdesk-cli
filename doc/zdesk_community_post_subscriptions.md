@@ -1,14 +1,18 @@
 ## `zdesk community post subscriptions`
 
-/community/posts/{post_id}/subscriptions.json
+/community/posts/{POST_ID}/subscriptions
 
 ### Synopsis
 
     zdesk community post subscriptions [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/community/posts/{POST_ID}/subscriptions
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/help_center/subscriptions#list-post-subscriptions
+https://developer.zendesk.com/api-reference/help_center/help-center-api/content_subscriptions#list-post-subscriptions
 
 ### Positional parameters
 

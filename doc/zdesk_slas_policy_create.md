@@ -6,7 +6,11 @@
 
     zdesk slas policy create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/slas/policies
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/sla_policies#create-sla-policy
+https://developer.zendesk.com/api-reference/ticketing/sla_policies#create-sla-policy
 

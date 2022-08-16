@@ -6,7 +6,11 @@
 
     zdesk skips list [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/skips.json
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/ticket_skips#list-skips-for-the-current-account
+https://developer.zendesk.com/api-reference/ticketing/ticket_skips#list-ticket-skips
 

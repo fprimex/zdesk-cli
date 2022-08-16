@@ -1,16 +1,20 @@
 ## `zdesk macros attachment show`
 
-/macros/attachments/{id}.json
+/macros/attachments/{ATTACHMENT_ID}
 
 ### Synopsis
 
     zdesk macros attachment show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/macros/attachments/{ATTACHMENT_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/macros#show-macro-attachment
+https://developer.zendesk.com/api-reference/ticketing/macros#show-macro-attachment
 
 ### Positional parameters
 
-* `ID`
+* `ATTACHMENT_ID`
 

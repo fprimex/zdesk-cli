@@ -1,16 +1,20 @@
 ## `zdesk apps location show`
 
-/apps/locations/{id}.json
+/apps/locations/{APP_LOCATION_ID}
 
 ### Synopsis
 
     zdesk apps location show [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/apps/locations/{APP_LOCATION_ID}
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/app_locations#show-location
+https://developer.zendesk.com/api-reference/ticketing/app_locations#show-location
 
 ### Positional parameters
 
-* `ID`
+* `APP_LOCATION_ID`
 

@@ -1,16 +1,20 @@
 ## `zdesk ticket collaborators`
 
-/tickets/{id}/collaborators.json
+/tickets/{TICKET_ID}/collaborators
 
 ### Synopsis
 
     zdesk ticket collaborators [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/tickets/{TICKET_ID}/collaborators
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/tickets#list-collaborators-for-a-ticket
+https://developer.zendesk.com/api-reference/ticketing/tickets#list-collaborators-for-a-ticket
 
 ### Positional parameters
 
-* `ID`
+* `TICKET_ID`
 

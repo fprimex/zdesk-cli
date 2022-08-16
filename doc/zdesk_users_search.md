@@ -1,18 +1,16 @@
 ## `zdesk users search`
 
-/users/search.json
+/users/search
 
 ### Synopsis
 
     zdesk users search [ ... ]
 
+### REST endpoint
+
+    GET https://{HOSTNAME}/api/v2/users/search
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/core/users#search-users
-
-### Options
-
-* `-external-id OPTION`
-
-* `-query OPTION`
+https://developer.zendesk.com/api-reference/ticketing/users#search-users
 

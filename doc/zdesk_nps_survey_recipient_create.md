@@ -1,14 +1,18 @@
 ## `zdesk nps survey recipient create`
 
-/nps/surveys/{survey_id}/recipients.json
+/nps/surveys/{SURVEY_ID}/recipients
 
 ### Synopsis
 
     zdesk nps survey recipient create [ ... ]
 
+### REST endpoint
+
+    POST https://{HOSTNAME}/api/v2/nps/surveys/{SURVEY_ID}/recipients
+
 ### Description
 
-https://developer.zendesk.com/rest_api/docs/nps-api/recipients#create-recipient
+https://developer.zendesk.com/api-reference/ticketing/nps_recipients#create-recipient
 
 ### Positional parameters
 
