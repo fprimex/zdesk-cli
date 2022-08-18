@@ -20,6 +20,6 @@ https://developer.zendesk.com/api-reference/ticketing/tickets/api-reference/voic
 
 ### Output
 
-| ID    | Status         | Priority    | Created        | Updated       | Subject        |
-| ----- | -------------- | ----------- | -------------- | ------------- | -------------- |
-| `.id` | `.status`      | `.priority` | `.created_at`  | `.updated_at` | `.raw_subject` | `.tickets` |
+| ID    | Status         | Priority    | Created                | Updated               | Subject        |
+| ----- | -------------- | ----------- | ---------------------- | --------------------- | -------------- |
+| `.id` | `.status`      | `.priority` | `.created_at`          | `.updated_at`         | `.raw_subject` | `.tickets` |
