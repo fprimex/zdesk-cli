@@ -2136,7 +2136,12 @@ junonia_cache_file () {
       mkdir -p "$JUNONIA_CACHEDIR/$d"
     fi
 
-    echo "$contents" > "$JUNONIA_CACHEDIR/$cachepath"
+    awk -v contents="$contents" 'BEGIN {
+          gsub(/\\n/, "\\\\n", contents)
+          print contents
+        }' > "$JUNONIA_CACHEDIR/$cachepath"
+
+    #echo "$contents" > "$JUNONIA_CACHEDIR/$cachepath"
   else
     echodebug "skipping, caching disabled"
   fi
