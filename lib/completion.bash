@@ -304,7 +304,7 @@ _zdesk_completion()
     "zdesk roles") COMPREPLY=($(compgen -W "list" -- ${cur})) ;;
     "zdesk routing agent instance-value") COMPREPLY=($(compgen -W "create" -- ${cur})) ;;
     "zdesk routing agent") COMPREPLY=($(compgen -W "instance-value instance-values" -- ${cur})) ;;
-    "zdesk routing attribute value") COMPREPLY=($(compgen -W "create delete show" -- ${cur})) ;;
+    "zdesk routing attribute value") COMPREPLY=($(compgen -W "create delete show update" -- ${cur})) ;;
     "zdesk routing attribute") COMPREPLY=($(compgen -W "create delete show update value values" -- ${cur})) ;;
     "zdesk routing attributes definitions") COMPREPLY=($(compgen -W "list" -- ${cur})) ;;
     "zdesk routing attributes") COMPREPLY=($(compgen -W "definitions list" -- ${cur})) ;;
@@ -313,9 +313,10 @@ _zdesk_completion()
     "zdesk routing ticket instance-value") COMPREPLY=($(compgen -W "create" -- ${cur})) ;;
     "zdesk routing ticket") COMPREPLY=($(compgen -W "instance-value instance-values" -- ${cur})) ;;
     "zdesk routing") COMPREPLY=($(compgen -W "agent attribute attributes requirements ticket" -- ${cur})) ;;
-    "zdesk routing-settings account") COMPREPLY=($(compgen -W "list" -- ${cur})) ;;
-    "zdesk routing-settings agent") COMPREPLY=($(compgen -W "show" -- ${cur})) ;;
-    "zdesk routing-settings agents") COMPREPLY=($(compgen -W "list me" -- ${cur})) ;;
+    "zdesk routing-settings account") COMPREPLY=($(compgen -W "list update" -- ${cur})) ;;
+    "zdesk routing-settings agent") COMPREPLY=($(compgen -W "show update" -- ${cur})) ;;
+    "zdesk routing-settings agents me") COMPREPLY=($(compgen -W "update" -- ${cur})) ;;
+    "zdesk routing-settings agents") COMPREPLY=($(compgen -W "list me update" -- ${cur})) ;;
     "zdesk routing-settings") COMPREPLY=($(compgen -W "account agent agents" -- ${cur})) ;;
     "zdesk satisfaction-rating") COMPREPLY=($(compgen -W "show" -- ${cur})) ;;
     "zdesk satisfaction-ratings count") COMPREPLY=($(compgen -W "list" -- ${cur})) ;;
@@ -385,7 +386,7 @@ _zdesk_completion()
     "zdesk trigger") COMPREPLY=($(compgen -W "create delete revision revisions show update" -- ${cur})) ;;
     "zdesk trigger-categories job") COMPREPLY=($(compgen -W "create" -- ${cur})) ;;
     "zdesk trigger-categories") COMPREPLY=($(compgen -W "job list" -- ${cur})) ;;
-    "zdesk trigger-category") COMPREPLY=($(compgen -W "create delete show" -- ${cur})) ;;
+    "zdesk trigger-category") COMPREPLY=($(compgen -W "create delete show update" -- ${cur})) ;;
     "zdesk triggers active") COMPREPLY=($(compgen -W "list" -- ${cur})) ;;
     "zdesk triggers definitions") COMPREPLY=($(compgen -W "list" -- ${cur})) ;;
     "zdesk triggers") COMPREPLY=($(compgen -W "active definitions destroy-many list reorder search update-many" -- ${cur})) ;;
