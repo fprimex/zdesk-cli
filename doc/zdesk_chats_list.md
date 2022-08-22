@@ -12,7 +12,7 @@
 
 ### Description
 
-https://developer.zendesk.com/api-reference/live-chat/introduction/documentation/live-chat/getting-started/restrictions/
+https://developer.zendesk.com/api-reference/live-chat/introduction#document-conventions
 
 ### Options
 

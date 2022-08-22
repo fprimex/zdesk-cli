@@ -1,6 +1,6 @@
 ## `zdesk`
 
-REST client for the Zendesk helpdesk system
+Command line interface for Zendesk
 
 ### Synopsis
 
